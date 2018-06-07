@@ -532,8 +532,9 @@ module Spaceship
         teamId: team_id,
         type: type,
         csrContent: csr,
-        appIdId: app_id # optional
+        websitePushId: app_id # optional
       })
+      print(r)
       parse_response(r, 'certRequest')
     end
 
